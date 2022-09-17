@@ -16,6 +16,7 @@ public class CreateAccount {
 		System.out.println("The first account have a balance of U$ " + firstAccount.balance);
 		System.out.println("The first account have a balance of U$ " + secondAccount.balance);
 		
+		//Como falado nos vídeos, primeiraConta e segundaConta são referências, quando imprimimos, vemos um código um tanto estranho, para isso basta adicionar:
 		System.out.println(firstAccount);
 		
 	}

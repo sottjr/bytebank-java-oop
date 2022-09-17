@@ -6,4 +6,7 @@ public class Account {
 	int number;
 	String name;
 	
+	public void deposit(double value) {
+		this.balance = this.balance + value;
+	}
 }
