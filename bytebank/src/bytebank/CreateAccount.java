@@ -16,6 +16,8 @@ public class CreateAccount {
 		System.out.println("The first account have a balance of U$ " + firstAccount.balance);
 		System.out.println("The first account have a balance of U$ " + secondAccount.balance);
 		
+		System.out.println(firstAccount);
+		
 	}
 
 }
